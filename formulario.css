@@ -1,0 +1,57 @@
+<DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="formulario.css">
+
+<style>
+#m {color:blue}
+</style>
+</head>
+<body>
+<p><h10> Formulario Inscripçao</h10></p>
+
+<form action="/action_page.php">
+<input type="text" name="nome">
+<br>
+ <p>Nome:</p><br>
+<input type="text" name="Nome">
+<br><br>
+<p>Senha:</p><br>
+<input type="password" name="Endereço">
+<br><br>
+
+
+<p id="m">Telefone: </p>
+<input type="telefone" name="Telefone">
+<br><br>
+<p id="m">Email:</p>
+
+<input type="email" name="E-mail">
+<br><br>
+<p id="m">Sexo:</p>
+
+<input type="radio" name="Sexo">
+<br><br>
+
+<h1 style="color:lime;">Edade:</h1><br>
+<input type="number" name="Edade">
+<br><br>
+<h1 style="color:lime;">Curso:</h1><br>
+<input type="checkbox" name="Endereço">
+<br><br>
+
+
+</body>
+
+
+
+
+</html>
+
+CSS
+p {
+	color:red;
+	background-color:silver;
+	
+}
