@@ -1,0 +1,40 @@
+CSS
+
+div {
+background-color:lightgrey;
+width: 300px;
+border: 25px solid green;
+padding: 25px;
+margin: 100px;
+}
+
+HTML
+
+
+<DOCTIPE html>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="boxmodel.css">
+</head>
+<body>
+
+
+<div>
+
+JUAN O ESPANHOL
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
