@@ -1,0 +1,317 @@
+HTML
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<title>Dito Lambari</title>
+<link rel="stylesheet" href="DitoLambari.css">
+<meta charset="utf-8">
+</head>
+<body class="home">
+
+	<header class="topo">
+	<hgroup>
+		<h1><a href="/">Site do Dito Lambari</a></h1>
+		<h2>Site destinado a divulgar </h2>
+		<h2>o trabaho de Dito Lambari</h2>
+	</hgroup>
+   <nav>
+    <ul>
+	 
+	 <li><a href="sobre.html">sobre</a></li>
+	 <li><a href="receitas.html">Receitas</a></li>
+	 <li><a href="contato.html">Contato</a></li>
+    </ul>
+   </nav>
+  </header>
+     <!-- mais conteudo-->
+ <footer class="rodape">
+	<!-- conteudo do rodape do site-->
+</footer>
+
+</body>
+</html>
+	
+  CSS
+  body  {
+	background-image: url(amp-comida.jpg);
+	font-size: 15px;
+	background-size: cover;
+}
+nav {
+	width: 300px;
+}
+nav ul li{
+    padding: 15px;
+    background-color: #B7E0EE ;
+    border: solid 2px white;
+    border-radius: 10px;
+    list-style-type: none;
+    color: white;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: black
+	;
+}
+
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Sobre Dito Lambari</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<li><a class="corrente" href="DitoLambari.html">Home</a></li>
+<h1>Sobre Dito Lambari</h1>
+<article>
+    <div class="sobre">
+        <text>
+            <p>O dito lambari é a tradução de um conceito inovador na variedade oferecida de espécies de peixes e na forma de preparo do pescado de água doce, um ícone da gastronomia regional. Do clássico ao sofisticado, o peixe oriundo dos rios do Estado é a matéria-prima de pratos que agradam aos paladares mais exigentes, pela simplicidade ou pela combinação de especiarias e condimentos.</p>
+        </text>
+    </div>
+</article>
+</body>
+</html>
+
+css
+
+d {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h1 {
+	text-align:center;
+	font-size: 50px;
+}
+body  {
+	background-image: url(mujica-de-peixe-700x438.jpg);
+	font-size: 15px;
+	background-size: cover;
+}
+	
+.sobre {
+    width: 500px;
+    height: 200px;
+    position: relative;
+	left: 150px;
+	top: 125px;
+	background-color:#CCD1D1;
+	border-radius:20px ;
+}
+
+.sobre p {
+    color:#34495E ;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+    padding: 5px;
+	
+}	
+ nav ul li{
+    padding: 15px;
+    background-color: #B7E0EE ;
+    border: solid 2px white;
+    border-radius: 10px;
+    list-style-type: none;
+    color: white;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: black
+	;
+}
+
+HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>RECEITAS</title>
+<link rel="stylesheet" href="receita.css">
+</head>
+<body>
+<li><a class="corrente" href="DitoLambari.html">Home</a></li>
+<h2>RECEITAS</h2>
+<article>
+    <div class="receita1">
+        <text>
+            <h3> - 1 kg de filé de pintado (peixe) fresco<br>
+                - 1/2 kg de mandioca(que cozinhe bem)<br>
+                -1 vidro pequeno de leite de coco ou creme de leite(um ou outro)<br>
+                -2 tomates vermelhos,picadinhos<br>
+                -1 pimentão médio, verde, picadinho<br>
+                -Caldo de 1/2 limão pequeno<br>
+               Salsa<br>
+               Cebolinha<br>
+               Alho<br>
+               Cebola e coentro a gosto<br>
+               Sal<br>
+               1 pimenta pequenina, ardida<br>
+               Azeite para fritar o peixe (2 colherzinhas de sopa)<br>
+               1/2 pacotinho de molho de tomate pronto (a gosto)</h3>
+        </text>
+    </div>
+</article>
+<article>
+    <div class="preparaçao">
+        <text>
+		    <h3>  MODO DE PREPARO <h3>
+            <h3>
+                Bata os tomates no liquidificador com um pouco de água, <br>
+				em uma panela grande frite o alho e em seguida misture o molho de tomate batido e o sal.<br>
+				Acrescente os filés de pintado cortados em cubos. Bata novamente no liquidificador,<br>
+				agora parte da mandioca crua, esse caldo vai engrossar o molho.<br>
+        </text>
+    </div>
+</article>
+</body>
+</html>
+
+CSS
+
+r{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h2 {
+	text-align:center;
+	font-size: 75px;
+	color: #B7E0EE   ;
+}
+body  {
+	background-image: url(pintado1.jpg);
+	font-size: 15px;
+	background-size: cover;
+}
+.receita1 {
+    width: 500px;
+    height: 200px;
+    position: relative;
+	left: 150px;
+	top: 75px;
+}
+.preparaçao{
+    width: 500px;
+    height: 200px;
+    position: relative;
+	left: 650px;
+	top: -100px;
+}
+nav {
+	width: 300px;
+}
+nav ul li{
+    padding: 15px;
+    background-color: #B7E0EE ;
+    border: solid 2px white;
+    border-radius: 10px;
+    list-style-type: none;
+    color: white;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: black
+	;
+}
+
+HTML
+
+<!DOCTYPE HTML>
+<html>
+
+<script>
+                function funcao1()
+                {
+                    alert("Obrigado! Registraremos seus dados em nosso banco de clientes!");
+                }
+            </script>
+<title>CONTATO</title>
+<link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+<li><a class="corrente" href="DitoLambari.html">Home</a></li>
+<h2>CONTATO</h2>
+<article>
+   <div=class="reserva">
+     <text>
+       <h4>TELEFONE RESERVAS<H4>
+	   <h4>65-3045-6060</h4>
+     </text>
+<h1> Formulario Inscripçao</h1>
+<h1>
+<form action="/action_page.php">
+
+<br>
+Nome:<br>
+<input type="text" name="Nome">
+<br><br>
+Senha:<br>
+<input type="password" name="Endereço">
+<br><br>
+Telefone:<br>
+<input type="telefone" name="Telefone">
+<br><br>
+Email:<br>
+<input type="email" name="E-mail">
+<br><br>
+<style>
+Sexo:<br>
+<input type="radio" name="gender" value="masculino" >masculino<br>
+<input type="radio"  name="gender" value="femenino" >femenino<br>
+<input type="radio" 
+ name="gender" value="outros" >outros>
+<br><br>
+</style>
+Edade:<br>
+<input type="number" name="Edade">
+<br><br>
+<h>vc degustou ja de nossa comida ? </h>
+<input type="range" name="edade" min="18" max="99" step="8" value="100">
+<br><br>
+<input type="submit" value="enviar" onclick="funcao1()">
+
+</form>
+</body>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d856.9754645096685!2d-56.10949285884073!3d-15.588719659399908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x939db186bcb936a3%3A0x5c3ec2f633ecf11a!2sL%C3%A9lis%20fish%20restaurant!5e0!3m2!1ses!2sbr!4v1569626440459!5m2!1ses!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</html>
+
+CSS
+
+T {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h2 {
+	text-align:center;
+	font-size: 65px;
+	color: blue ;
+}
+body  {
+	background-image: url(Contacto1.jpg);
+	font-size: 15px;
+	background-size: cover;
+}
+
+h4 {
+	text-align:center;
+    font-size: 35px;
+	color: #29118C ;
+}
+iframe {
+	width:383px;
+	position: absolute;
+	left:850px;
+	border:none;
+	top: 400px;
+}
